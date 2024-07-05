@@ -1,0 +1,146 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.b-none {
+  border: none !important;
+}
+.d-flex {
+  display: flex;
+}
+.flex-shrink-2{
+  flex-shrink: 2;
+}
+
+.header {
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+.header-container {
+  /* width: 100%;
+  max-width: 1024px; */
+  width: 1024px;
+  position: relative;
+}
+.header-list {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 10px;
+}
+.header-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  padding: 5px;
+}
+.active {
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.header-content {
+  margin: 70px 0px 100px 0px;
+}
+.header-content h1 {
+  font-size: 50px;
+}
+.header-content p {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.header-content button {
+  background-color: #0071c2;
+  color: white;
+}
+.header-search {
+  width: 100%;
+  border: 5px solid #febb02;
+  height: 50px;
+  position: absolute;
+  bottom: -25px;
+  background-color: white;
+}
+.header-search-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-search-item {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-right: 5px solid #febb02;
+  padding-left: 15px;
+  position: relative;
+  color: gray;
+}
+.search-logo {
+  font-size: 22px;
+}
+.header-search-item input {
+  border: none;
+  outline: none;
+}
+.header-search-item span {
+  cursor: pointer;
+}
+.date {
+  position: absolute;
+  top: 50px;
+}
+.options {
+  display: flex;
+  position: absolute;
+  top: 50px;
+  flex-direction: column;
+  width: 60%;
+  /* padding-right: 20px; */
+}
+.optionItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.optionCounter {
+  width: 45%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid lightgrey;
+  /* padding: 5px; */
+}
+.optionCounter button {
+  width: 30px;
+  height: 30px;
+  color: #0071c2;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.optionCounter span {
+  color: black;
+}
+.counter-disabled:disabled {
+  cursor: not-allowed;
+}
+.options {
+  padding: 10px;
+  box-shadow: 0 2px 16px 0 rgba(255, 26, 26, 0.24);
+}
+.date {
+  box-shadow: 0 2px 16px 0 rgba(255, 26, 26, 0.24);
+}
+.header-search-item button{
+  background-color: #0071c2;
+  color: white;
+  transition: all .3s;
+  border-radius: 5px;
+}
+.header-search-item button:hover{
+  background-color: #003580;
+}
