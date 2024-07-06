@@ -66,6 +66,7 @@
   align-items: center;
 }
 .header-search-item {
+  z-index: 5;
   width: 100%;
   display: flex;
   gap: 10px;
@@ -96,6 +97,8 @@
   top: 50px;
   flex-direction: column;
   width: 60%;
+  background-color: white;
+  border-radius: 10px;
   /* padding-right: 20px; */
 }
 .optionItem {
@@ -132,15 +135,11 @@
   padding: 10px;
   box-shadow: 0 2px 16px 0 rgba(255, 26, 26, 0.24);
 }
-.date {
+.date { 
   box-shadow: 0 2px 16px 0 rgba(255, 26, 26, 0.24);
 }
-.header-search-item button{
+.search-btn button{
   background-color: #0071c2;
-  color: white;
-  transition: all .3s;
   border-radius: 5px;
-}
-.header-search-item button:hover{
-  background-color: #003580;
+  color: white;
 }

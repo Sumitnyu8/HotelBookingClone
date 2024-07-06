@@ -117,7 +117,7 @@ function Header({type}) {
                   </div>
                 </div>}
               </div>
-              <div className="header-search-item b-none flex-shrink-2 pe-3">
+              <div className="header-search-item search-btn b-none flex-shrink-2 pe-3">
                 <Button content="Search"/>
               </div>
             </div>
