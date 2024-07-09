@@ -4,6 +4,7 @@ import Header from '../../components/Header/Header'
 import GuestsLove from '../../components/GuestsLove/GuestsLove'
 import ExplorePlaces from '../../components/ExplorePlaces/ExplorePlaces'
 import UniqueProperties from '../../components/UniqueProperties/UniqueProperties'
+import Footer from '../../components/Footer/Footer'
 // import Carousal from '../../components/demo/Carousal'
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
       <GuestsLove/>
       <ExplorePlaces/>
       <UniqueProperties/>
+      <Footer/>
       {/* <Carousal/> */}
     </>
   )
