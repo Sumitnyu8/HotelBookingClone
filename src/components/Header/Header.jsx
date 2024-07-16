@@ -67,6 +67,7 @@ function Header({type}) {
             <p>Search deals on hotels, homes, and much more...</p>
             {/* <Button content='Sign in / Register'/> */}
           </div>
+          </>}
           <div className="header-search">
             <div className="header-search-container">
               <div className="header-search-item ">
@@ -121,7 +122,7 @@ function Header({type}) {
                 <Button content="Search"/>
               </div>
             </div>
-          </div></>}
+          </div>
         </div>
       </div>
     </>

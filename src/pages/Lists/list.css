@@ -1,0 +1,29 @@
+.light-color{
+    color: #475569;
+}
+.grey{
+    color: grey;
+}
+.list__item{
+    border: 1px solid #e7e7e7;
+}
+.list__item__detail__review{
+    background-color: #003b95;
+    color: white;
+}
+.font-small{
+    font-size: small;
+}
+
+.filter{
+    height: 400px;
+}
+.clear_filter{
+    background-color: white;
+}
+.clear_filter:hover{
+    background-color: #F9FAFB;
+}
+.form_item{
+    color: #475569;
+}
