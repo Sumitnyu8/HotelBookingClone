@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../../components/navbar/Navbar";
 import Header from "../../components/Header/Header";
 import "./list.css";
+import Footer from "../../components/Footer/Footer";
 
 function List() {
   const data = [
@@ -64,24 +65,24 @@ function List() {
                   <label htmlFor="5star">5 Star</label>
                 </div>
                 <div className="d-flex align-items-center form_item">
-                <input
-                  type="checkbox"
-                  text="hii"
-                  name="4star"
-                  id="4star"
-                  className="me-2"
-                />
-                <label htmlFor="4star">4 Star</label>
+                  <input
+                    type="checkbox"
+                    text="hii"
+                    name="4star"
+                    id="4star"
+                    className="me-2"
+                  />
+                  <label htmlFor="4star">4 Star</label>
                 </div>
                 <div className="d-flex align-items-center form_item">
-                <input
-                  type="checkbox"
-                  text="hii"
-                  name="3star"
-                  id="3star"
-                  className="me-2"
-                />
-                <label htmlFor="3star">3 Star</label>
+                  <input
+                    type="checkbox"
+                    text="hii"
+                    name="3star"
+                    id="3star"
+                    className="me-2"
+                  />
+                  <label htmlFor="3star">3 Star</label>
                 </div>
               </div>
             </form>
@@ -103,24 +104,24 @@ function List() {
                   <label htmlFor="hotel">Hotel</label>
                 </div>
                 <div className="d-flex align-items-center form_item">
-                <input
-                  type="checkbox"
-                  text="hii"
-                  name="apartment"
-                  id="apartment"
-                  className="me-2"
-                />
-                <label htmlFor="apartment">Apartment</label>
+                  <input
+                    type="checkbox"
+                    text="hii"
+                    name="apartment"
+                    id="apartment"
+                    className="me-2"
+                  />
+                  <label htmlFor="apartment">Apartment</label>
                 </div>
                 <div className="d-flex align-items-center form_item">
-                <input
-                  type="checkbox"
-                  text="hii"
-                  name="villa"
-                  id="villa"
-                  className="me-2"
-                />
-                <label htmlFor="villa">Villa</label>
+                  <input
+                    type="checkbox"
+                    text="hii"
+                    name="villa"
+                    id="villa"
+                    className="me-2"
+                  />
+                  <label htmlFor="villa">Villa</label>
                 </div>
               </div>
             </form>
@@ -161,6 +162,7 @@ function List() {
           ))}
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
