@@ -8,4 +8,6 @@ there are three routes from which you can refer all the pages
 2st on '/hotel' search you will see hotel booking page.
 3st on '/list' search you will see lists of hotels page. 
 
-one more this i forgot to tell that i only cloned hotel booking rather than all the services of booking.com
+also created date selection dropdown and adding no. of people dropdown in search-box
+
+one more i forgot to tell that i only cloned hotel booking rather than all the services of booking.com
